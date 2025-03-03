@@ -1,10 +1,10 @@
 import React from 'react';
-
-function Header({ img, headerText }) {
+import headerImg from '../assets/investment-calculator-logo.png';
+function Header() {
   return (
     <div id='header'>
-      <img src={img} alt='Header Logo' />
-      <h1>{headerText}</h1>
+      <img src={headerImg} alt='Header Logo' />
+      <h1>Investment Calculator</h1>
     </div>
   );
 }

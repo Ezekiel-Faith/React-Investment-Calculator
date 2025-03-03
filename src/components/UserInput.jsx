@@ -46,7 +46,7 @@ function UserInput({ onChangeInput, userInput }) {
             type='number'
             required
             value={userInput.duration}
-            onChange={(event) => handleChange('duration', event.target.value)}
+            onChange={(event) => onChangeInput('duration', event.target.value)}
           />
         </p>
       </div>
